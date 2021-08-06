@@ -25,3 +25,30 @@ Produto | Lucro Unitário (R$ / Kg) | Mão-De-Obra por Unidade (minutos)
 **Ricota** | 1.20 | 1
 
 </div>
+
+**Deve-se Otimizar o Lucro da Empresa**
+
+## Problema do Transporte
+
+Uma empresa possui duas fábricas e três centros de distribuição (CD)
+espalhados na Região Nordeste. A tabela abaixo indica as distâncias em km entre as fábricas
+e os CDs. O custo de transporte é de R$ 2,00 por km para mil unidades transportadas. A
+demanda trimestral por produtos (em milhares de unidades) nos CDs 1, 2 e 3 são,
+respectivamente, 50, 100 e 120. As capacidades de produção trimestral das fábricas 1 e 2
+são, respectivamente, 130 e 140 mil unidades.
+
+<div align="center">
+
+X| CD1 | CD2 | CD3
+:------------: | :-------------: | :-------------: | :-------------: 
+**Fábrica 01** | 300 | 650 | 800
+**Fábrica 02** | 750 | 550 | 350
+ 
+</div>
+ 
+ **Deve-se minimizar o custo de transporte**
+ 
+ **Logo após,resolva novamente o modelo caso a demanda no CD 3 seja de 150 unidades**
+
+## Problema de Alocação 
+
