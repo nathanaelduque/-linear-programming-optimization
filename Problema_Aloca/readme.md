@@ -21,3 +21,13 @@ Para modelar tal problema, usa-se uma matriz unimodular, isso faz com que soment
     
 A partir dessa matriz, da biblioteca Pyomo e do solver GLPK, resolve-se esse problema de alocação dinâmica,e descobre-se que a matriz solução,que designa cada carro a somente uma corrida será como mostrado abaixo, o tempo mínimo total será de 38 minutos.
 
+<div align="center">
+
+x| Cliente 01 | Cliente 02 | Cliente 03 | Cliente 04
+:------------: | :-------------: | :-------------: | :-------------: |  :-------------: 
+**Taxista 1** | 0 | 0 | 0 | 1
+**Taxista 2** | 0 | 0 | 1 | 0
+**Taxista 3** | 0 | 1 | 0 | 0 
+**Taxista 4** | 1 | 0 | 0 | 0 
+ 
+</div>
