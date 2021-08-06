@@ -39,7 +39,7 @@ são, respectivamente, 130 e 140 mil unidades.
 
 <div align="center">
 
-X| CD1 | CD2 | CD3
+x| CD1 | CD2 | CD3
 :------------: | :-------------: | :-------------: | :-------------: 
 **Fábrica 01** | 300 | 650 | 800
 **Fábrica 02** | 750 | 550 | 350
