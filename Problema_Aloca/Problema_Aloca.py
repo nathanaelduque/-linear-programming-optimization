@@ -66,7 +66,7 @@ for i in lista:
   if modelo.variaveis[i]() != 0:
     a[i]= modelo.variaveis[i]() 
 a=a[1:,1:]
-print("\n A matriz solução é: \n",a)
+print("\n A matriz solução é: \n",a) 
 
 print("Valor da função Objetivo:",modelo.objetivo())
 
