@@ -19,7 +19,7 @@ O modelo de Programação Linear será dado por:
 - Legenda:
   - xij = quantidade transportada desde a Fábrica i até o centro de distribuição j
 
-## Explicação e Resolução do Problema 
+## Explicação e Resolução do Problema Balanceado
 
 Nesse tópico foi resolvido um exemplo clássico do Problema do Transporte balanceado,onde tem-se um determinado número de centros de distribuição e um determinado número de fábricas, nesse caso,por ser um problema balanceado, a demanda total é igual a produção total.
 
@@ -27,3 +27,27 @@ Como já foi fornecida a matriz de custos, ao invés da matriz de distâncias(qu
 **O custo final é igual a: R$ 240000,00**
 
 
+<div align="center">
+
+x| CD1 | CD2 | CD3
+:------------: | :-------------: | :-------------: | :-------------: 
+**Fábrica 01** | 50 | 80 | 0
+**Fábrica 02** | 0 | 20 | 120
+ 
+</div>
+
+## Explicação e Resolução do Problema Desbalanceado
+
+Nesse tópico,se resolve o problema, porém acrescenta-se uma demanda extra de 30 mil unidades ao Centro de Distribuição 03, que ficará com uma demanda total de 150 mil unidades,tornando assim o problema desbalanceado.
+
+A solução para tal problema, tal como mostra o código, é criar uma fábrica fantasma, com custo de transporte para todas os centros de distribuição igual a zero. A capacidade dessa fábrica será igual a carga extra, que não pode ser suprida por nenhuma das fábricas(havendo assim um corte na demanda).A matriz de soluções final é dada por abaixo. **Seu custo final é igual a: R$ 232000,00.**
+
+<div align="center">
+
+x| CD1 | CD2 | CD3
+:------------: | :-------------: | :-------------: | :-------------: 
+**Fábrica 01** | 50 | 80 | 0
+**Fábrica 02** | 0 | 0 | 140
+**Fábrica Fantasma** | 0 | 20 | 10
+ 
+</div>
