@@ -52,3 +52,20 @@ x| CD1 | CD2 | CD3
 
 ## Problema de Alocação 
 
+Uma firma de táxi tem 4 motoristas disponíveis em 4 lugares diferentes e 4
+clientes desejam que seus táxis cheguem o mais rápido possível. A tabela abaixo informa o
+tempo necessário em minutos para que cada taxista chegue em cada cliente.
+
+<div align="center">
+
+x| Cliente 01 | Cliente 02 | Cliente 03 | Cliente 04
+:------------: | :-------------: | :-------------: | :-------------: |  :-------------: 
+**Taxista 1** | 17 | 18 | 10 | 8
+**Taxista 2** | 15 | 16 | 7 | 16
+**Taxista 3** | 14 | 13 | 8 | 15 
+**Taxista 4** | 10 | 15 | 11 | 12 
+ 
+</div>
+
+
+
